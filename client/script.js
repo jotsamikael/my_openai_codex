@@ -110,8 +110,8 @@ function chatStripe(isAi, value, uniqueId) {
 
 
   //Fetch data from server
-   const response = await fetch('http://localhost:5000/', {
-   //const response = await fetch('https://jotsa-openai-codex.onrender.com/', {
+   //const response = await fetch('http://localhost:5000/', {
+   const response = await fetch('https://jotsa-openai-codex.onrender.com/', {
      method: 'POST',
      headers: {
        'Content-Type': 'application/json',
